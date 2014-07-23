@@ -1,4 +1,6 @@
 program hello
     implicit none
-    print *, "Hello World the second"
+    character(21) :: a
+    a = "Hello World the second"
+    print *, a
 end program hello
